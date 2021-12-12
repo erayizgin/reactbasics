@@ -1,16 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import BasicForm from './BasicForm';
-import StateFilterExample from './StateFilterExample';
-import HooksUseeffect from './HooksUseeffect';
+import InlineHandler from './InlineHandler';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <BasicForm /> */}
-    <StateFilterExample />
+    <InlineHandler />
   </React.StrictMode>,
   document.getElementById('root')
 );
