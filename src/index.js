@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import InlineHandler from './InlineHandler';
+import UseReducer from './Hooks/UseReducer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <BasicForm /> */}
-    <InlineHandler />
+    <UseReducer />
   </React.StrictMode>,
   document.getElementById('root')
 );
