@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import UseReducer from './Hooks/UseReducer';
+import AsynchronousUseReducer from './Asynchronous/AsynchronousUseReducer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <BasicForm /> */}
-    <UseReducer />
+    <AsynchronousUseReducer />
   </React.StrictMode>,
   document.getElementById('root')
 );
