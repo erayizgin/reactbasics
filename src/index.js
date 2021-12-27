@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import AsynchronousUseReducer from './Asynchronous/AsynchronousUseReducer';
+import FormListSubmit from './Forms/FormListSubmit';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <BasicForm /> */}
-    <AsynchronousUseReducer />
+    <FormListSubmit />
   </React.StrictMode>,
   document.getElementById('root')
 );
