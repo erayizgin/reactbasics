@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import FormListSubmit from './Forms/FormListSubmit';
+import StyledComponentsExample from './Css/StyledComponentsExample';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <BasicForm /> */}
-    <FormListSubmit />
+    <StyledComponentsExample />
   </React.StrictMode>,
   document.getElementById('root')
 );
